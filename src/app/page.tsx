@@ -91,7 +91,7 @@ export default function Page() {
                 src={data[currentIndex].image}
                 width={3000}
                 height={3000}
-                className={`absolute object-cover z-0 inset-0 size-full transition-all duration-500 ${fade ? "opacity-0 backdrop-blur-3xl" : "backdrop-blur-0 opacity-100"}`}
+                className={`absolute object-cover z-0 inset-0 h-screen lg:h-full size-full transition-all duration-500 ${fade ? "opacity-0 backdrop-blur-3xl" : "backdrop-blur-0 opacity-100"}`}
               />
 
               <div className="bg-gradient-to-r from-background via-background/75 to-background/50 size-full absolute inset-0"></div>
